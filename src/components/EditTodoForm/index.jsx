@@ -18,7 +18,7 @@ export const EditTodoForm = ({editTodo, task}) => {
             
             />
         
-            <button type='submit' className={styles.todo_btn}>Alterar tarefa</button>
+            <button type='submit' className={styles.todo_btn} key={task}>Alterar tarefa</button>
         </form>
     )
 }
