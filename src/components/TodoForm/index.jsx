@@ -9,7 +9,6 @@ export const TodoForm = ({addTodo}) => {
         if (value) {
             addTodo(value)
             setValue('')
-
         }
     }
 
@@ -18,7 +17,6 @@ export const TodoForm = ({addTodo}) => {
             <input type='text' className={styles.todo_input} value={value}
             placeholder='O que deseja anotar hoje?'
             onChange={(e) => setValue(e.target.value)} 
-            
             />
         
             <button type='submit' className={styles.todo_btn}>Add tarefa</button>
