@@ -15,7 +15,7 @@ export const TodoWrapper = () => {
             {id: uuidv4(), task: todo, completed: false, isEditing: false}
         ])
 
-        console.log(todos)
+        
     }
     
     const deleteTodo = (id) => {
