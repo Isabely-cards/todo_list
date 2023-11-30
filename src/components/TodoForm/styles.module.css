@@ -33,6 +33,7 @@
         width: 100%;
     }
     .todo_input {
+        -webkit-appearance: none;
         width: 200px;
         padding: 0.25rem;
 
