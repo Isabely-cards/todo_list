@@ -26,3 +26,16 @@
     cursor: pointer;
     
 }
+@media only screen and (max-width: 450px) {
+    .TodoForm {
+        width: 100%;
+    }
+    .todo_input {
+        width: 160px;
+        padding: 0.20rem;
+
+    }
+    .todo_btn {
+        padding: 0.15rem;
+    }
+}
