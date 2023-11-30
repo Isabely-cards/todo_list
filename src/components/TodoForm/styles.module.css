@@ -1,5 +1,6 @@
 .TodoForm {
     width: 100%;
+    -webkit-appearance: none;
 }
 
 .todo_input {
