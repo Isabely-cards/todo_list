@@ -32,14 +32,15 @@ export const TodoWrapper = () => {
     }
 
     return(
-        <div className={styles.todoWrapper} >
+        <section >
+            <div className={styles.todoWrapper}>
             <h1>Anotações!</h1>
+
             <TodoForm addTodo={addTodo} />
             {todos.map((todo) => (
                 todo.isEditing ? (
                     <EditTodoForm editTodo={editTask} task={todo} key={todo}/>
                 ) : (
-                    
                     <Todo 
                         key={todo.id} 
                         task={todo} 
@@ -49,6 +50,8 @@ export const TodoWrapper = () => {
                     />
                 )
             ))}
-        </div>
+
+            </div>
+        </section>
     )
 }
