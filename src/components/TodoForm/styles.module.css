@@ -3,6 +3,7 @@
 }
 
 .todo_input {
+    -webkit-animation: none;
     outline: none;
     background: none;
     border: 1px solid #8758ff;
@@ -27,17 +28,17 @@
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 430px) {
     .TodoForm {
         width: 100%;
     }
     .todo_input {
-        width: 160px;
+        width: 200px;
         padding: 0.25rem;
 
     }
     .todo_btn {
-        padding: 0.20rem;
+        padding: 0.32rem;
     }
     .todo_input::placeholder {
        font-size: 11px;
