@@ -8,3 +8,14 @@
 .todoWrapper h1 {
     text-align: center;
 }
+@media only screen and (max-width: 768px) {
+    .todoWrapper {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .todoWrapper {
+        padding: 0.2rem;
+    }
+}
