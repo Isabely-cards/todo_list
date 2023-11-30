@@ -3,7 +3,7 @@
 }
 
 .todo_input {
-    -webkit-animation: none;
+    -webkit-appearance: none;
     outline: none;
     background: none;
     border: 1px solid #8758ff;
